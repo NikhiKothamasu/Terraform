@@ -17,6 +17,11 @@ jobs:
               with:
                   terraform_version: "1.9.8"
 
+            - name: configure gcloud sdk
+              uses: google-github-actions/setup-gcloud@v2
+              with:
+                  project_id: las-cloudlabs18
+
             - name : GOOGLE APPLICATION CREDENTIALS
               uses: 'google-github-actions/auth@v3'
               with:

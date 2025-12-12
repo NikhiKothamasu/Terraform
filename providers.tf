@@ -6,7 +6,7 @@ provider "google" {
   
 }
 resource "google_storage_bucket" "action1" {
-    name     = "newtestbucketherehimanshuactionyaml"
+    name     = "newtestbucketherehimanshuactionyaml23"
     location = "US"
   
 }

@@ -1,11 +1,4 @@
 
-terraform {
-  backend "gcs" {
-    bucket = "newtestbucketherehimanshu"
-    prefix = "terraform/state"
-    }
-}
-
 
 provider "google" {
     project = "las-cloudlabs18"
